@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Craned",
+  "version": "1.0",
+
+  //"default_locale": "en",
+  "description": "You got craned!",
+  "icons": { 
+    "128": "images/white-crane-128.png",
+    "48": "images/white-crane-48.png",
+    "16": "images/white-crane-16.png"
+   },
+
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["alarms", "tabs"]
+}
